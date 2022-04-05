@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install --save-dev @sindresorhus/tsconfig
+$ npm install --save-dev @elzup/tsconfig
 ```
 
 ## Usage
@@ -14,21 +14,9 @@ $ npm install --save-dev @sindresorhus/tsconfig
 
 ```json
 {
-	"extends": "@sindresorhus/tsconfig/tsconfig.json",
+	"extends": "@elzup/tsconfig/tsconfig",
 	"compilerOptions": {
 		"outDir": "dist"
-	}
-}
-```
-
-When you are targeting a higher version of Node.js, check the relevant ECMAScript version and add it as `target`:
-
-```json
-{
-	"extends": "@sindresorhus/tsconfig/tsconfig.json",
-	"compilerOptions": {
-		"outDir": "dist",
-		"target": "ES2021"
 	}
 }
 ```
