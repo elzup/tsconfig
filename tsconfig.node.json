@@ -1,21 +1,21 @@
 {
 	"compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "nodenext",
 		"allowJs": true,
 		"skipLibCheck": true,
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
-		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"noEmit": true,
 		"noImplicitAny": false,
 		"jsx": "preserve",
 
-		"target": "es5",
+		"target": "esnext",
 		"lib": ["es7", "dom"],
-		"module": "commonjs",
 		"sourceMap": true
 	}
 }
